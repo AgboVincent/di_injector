@@ -1,4 +1,4 @@
-package com.example.zojatech_assessment
+package com.example.zojatech_flutter_assessment
 
 import io.flutter.embedding.android.FlutterActivity
 

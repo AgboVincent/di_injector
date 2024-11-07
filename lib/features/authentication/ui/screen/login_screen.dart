@@ -11,12 +11,12 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  final login = locator<LoginUseCase>();
+  //final login = locator<LoginUseCase>();
 
   @override
   void initState() {
     super.initState();
-    login.repository.login();
+   // login.repository.login();
   }
 
   @override
@@ -32,9 +32,9 @@ class _LoginScreenState extends State<LoginScreen> {
                 style: TextStyle(fontSize: 40.sp),
               ),
               SizedBox(height: 20.h),
-              TextField(),
+              const TextField(),
               SizedBox(height: 20.h),
-              TextField(),
+              const TextField(),
               SizedBox(height: 60.h),
               SizedBox(
                 width: 1.sw,
@@ -42,7 +42,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   onPressed: () {
                     
                   },
-                  child: Text("Login"),
+                  child: const Text("Login"),
                 ),
               ),
             ],

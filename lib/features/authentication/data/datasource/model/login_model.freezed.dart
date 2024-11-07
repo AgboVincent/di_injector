@@ -26,12 +26,8 @@ mixin _$LoginModel {
   List<SmartSaverTransaction>? get smartSaverTransactions =>
       throw _privateConstructorUsedError;
 
-  /// Serializes this LoginModel to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-
-  /// Create a copy of LoginModel
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   $LoginModelCopyWith<LoginModel> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -60,8 +56,6 @@ class _$LoginModelCopyWithImpl<$Res, $Val extends LoginModel>
   // ignore: unused_field
   final $Res Function($Val) _then;
 
-  /// Create a copy of LoginModel
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -80,8 +74,6 @@ class _$LoginModelCopyWithImpl<$Res, $Val extends LoginModel>
     ) as $Val);
   }
 
-  /// Create a copy of LoginModel
-  /// with the given fields replaced by the non-null parameter values.
   @override
   @pragma('vm:prefer-inline')
   $UserDataCopyWith<$Res>? get userData {
@@ -120,8 +112,6 @@ class __$$LoginModelImplCopyWithImpl<$Res>
       _$LoginModelImpl _value, $Res Function(_$LoginModelImpl) _then)
       : super(_value, _then);
 
-  /// Create a copy of LoginModel
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -184,14 +174,12 @@ class _$LoginModelImpl implements _LoginModel {
                 other._smartSaverTransactions, _smartSaverTransactions));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(runtimeType, userData,
       const DeepCollectionEquality().hash(_smartSaverTransactions));
 
-  /// Create a copy of LoginModel
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
   _$$LoginModelImplCopyWith<_$LoginModelImpl> get copyWith =>
@@ -221,11 +209,8 @@ abstract class _LoginModel implements LoginModel {
   @override
   @JsonKey(name: 'smart_saver_transactions')
   List<SmartSaverTransaction>? get smartSaverTransactions;
-
-  /// Create a copy of LoginModel
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   _$$LoginModelImplCopyWith<_$LoginModelImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -243,12 +228,8 @@ mixin _$SmartSaverTransaction {
   @JsonKey(name: 'date_created')
   DateTime? get dateCreated => throw _privateConstructorUsedError;
 
-  /// Serializes this SmartSaverTransaction to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-
-  /// Create a copy of SmartSaverTransaction
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   $SmartSaverTransactionCopyWith<SmartSaverTransaction> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -277,8 +258,6 @@ class _$SmartSaverTransactionCopyWithImpl<$Res,
   // ignore: unused_field
   final $Res Function($Val) _then;
 
-  /// Create a copy of SmartSaverTransaction
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -333,8 +312,6 @@ class __$$SmartSaverTransactionImplCopyWithImpl<$Res>
       $Res Function(_$SmartSaverTransactionImpl) _then)
       : super(_value, _then);
 
-  /// Create a copy of SmartSaverTransaction
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -404,14 +381,12 @@ class _$SmartSaverTransactionImpl implements _SmartSaverTransaction {
                 other.dateCreated == dateCreated));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode =>
       Object.hash(runtimeType, amount, type, narration, dateCreated);
 
-  /// Create a copy of SmartSaverTransaction
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
   _$$SmartSaverTransactionImplCopyWith<_$SmartSaverTransactionImpl>
@@ -446,11 +421,8 @@ abstract class _SmartSaverTransaction implements SmartSaverTransaction {
   @override
   @JsonKey(name: 'date_created')
   DateTime? get dateCreated;
-
-  /// Create a copy of SmartSaverTransaction
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   _$$SmartSaverTransactionImplCopyWith<_$SmartSaverTransactionImpl>
       get copyWith => throw _privateConstructorUsedError;
 }
@@ -481,12 +453,8 @@ mixin _$UserData {
   @JsonKey(name: 'phone_verified')
   bool? get phoneVerified => throw _privateConstructorUsedError;
 
-  /// Serializes this UserData to a JSON map.
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
-
-  /// Create a copy of UserData
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   $UserDataCopyWith<UserData> get copyWith =>
       throw _privateConstructorUsedError;
 }
@@ -520,8 +488,6 @@ class _$UserDataCopyWithImpl<$Res, $Val extends UserData>
   // ignore: unused_field
   final $Res Function($Val) _then;
 
-  /// Create a copy of UserData
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -616,8 +582,6 @@ class __$$UserDataImplCopyWithImpl<$Res>
       _$UserDataImpl _value, $Res Function(_$UserDataImpl) _then)
       : super(_value, _then);
 
-  /// Create a copy of UserData
-  /// with the given fields replaced by the non-null parameter values.
   @pragma('vm:prefer-inline')
   @override
   $Res call({
@@ -763,7 +727,7 @@ class _$UserDataImpl implements _UserData {
                 other.phoneVerified == phoneVerified));
   }
 
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   int get hashCode => Object.hash(
       runtimeType,
@@ -779,9 +743,7 @@ class _$UserDataImpl implements _UserData {
       emailVerified,
       phoneVerified);
 
-  /// Create a copy of UserData
-  /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
   _$$UserDataImplCopyWith<_$UserDataImpl> get copyWith =>
@@ -843,11 +805,8 @@ abstract class _UserData implements UserData {
   @override
   @JsonKey(name: 'phone_verified')
   bool? get phoneVerified;
-
-  /// Create a copy of UserData
-  /// with the given fields replaced by the non-null parameter values.
   @override
-  @JsonKey(includeFromJson: false, includeToJson: false)
+  @JsonKey(ignore: true)
   _$$UserDataImplCopyWith<_$UserDataImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }
