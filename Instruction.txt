@@ -1,0 +1,10 @@
+1. Clone/Pull the code from the repository (5 minutes)
+2. Understand the sample code (10 minutes)
+3. Setup the presentation layer using any state management of your choice (10 minutes)
+4. Navigate from the login page to the homepage after calling the api
+(Present a loader when the action is in progress/loading state) (8 minutes)
+5. Create a simple design on the homepage which showcases the firstname, lastname, 
+phone number and the 3 available balances, separated by a divider (10 minutes)
+6. Present the 3 smartsaver transactions using a listview builder (10 minutes)
+7. unit test (10 minutes) 
+8. A0B (2minutes)
