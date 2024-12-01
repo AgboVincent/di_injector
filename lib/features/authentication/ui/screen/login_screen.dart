@@ -11,12 +11,12 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  //final login = locator<LoginUseCase>();
+  final login = locator<LoginUseCase>();
 
   @override
   void initState() {
     super.initState();
-   // login.repository.login();
+    login.repository.login();
   }
 
   @override
